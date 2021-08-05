@@ -3,5 +3,5 @@
 * Kotlin
 * API Rest
 * OAuth2
-* Firebase - authenticação com conta google
+* Firebase - autenticação com conta google
 
