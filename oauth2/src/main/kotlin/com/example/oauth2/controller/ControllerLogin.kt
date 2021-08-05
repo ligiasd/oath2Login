@@ -8,12 +8,12 @@ class ControllerLogin {
 
     @GetMapping("/")
     fun sparkinho(): String{
-        return "Bem vindo ao Sparkinho!"
+        return "Sparkinho conteúdo limitado!"
     }
 
-    @GetMapping("home")
+    @GetMapping("/home")
     fun home(): String{
-        return "Acesso restrito à área de interação colaboradores Redspark - Sparkinho!"
+        return "Acesso restrito à área de interação Sparkinho - Apenas para Colaboradores Redspark!"
 
     }
 }
