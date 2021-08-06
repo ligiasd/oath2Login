@@ -8,7 +8,7 @@ class ControllerLogin {
 
     @GetMapping("/")
     fun sparkinho(): String{
-        return "Sparkinho conteúdo limitado!"
+        return "Sparkinho conteúdo liberado a todos!"
     }
 
     @GetMapping("/home")
